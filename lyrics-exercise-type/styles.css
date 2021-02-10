@@ -1,0 +1,76 @@
+body {
+    background-color: #1f1b24;
+    /* width: 90%; */
+    margin: auto;
+}
+
+header {
+    display: flex;
+    height: 100%;
+}
+
+#column-1 {
+    width: 60%;
+    padding-left: 40px;
+}
+
+#lyrics {
+    margin-top: 60px;
+    color: #896bbe;
+    font-family: 'Manrope', sans-serif;
+}
+
+.lyric-block {
+    margin-bottom: 64px;
+}
+
+#column-2 {
+    width: 40%;
+    background-color: #332940;
+    padding-left: 40px;
+    padding-top: 24px;
+}
+
+#album-cover {
+    margin-top: 24px;
+}
+
+#song {
+    color: #efe5fd;
+    font-family: 'Manrope', sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 108px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+#artist {
+    color: #b794f6;
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.chorus {
+    font-weight: 600;
+    font-size: 20px;
+    color: #c0b3d8;
+}
+
+.verse {
+    font-weight: 400;
+    font-size: 18px;
+    color: #b794f6;
+}
+
+.pre-chorus {
+    font-weight: 600;
+    font-size: 18px;
+    color: #9889b3;
+}
+
+.breakdown {
+    font-style: italic;
+}
+
