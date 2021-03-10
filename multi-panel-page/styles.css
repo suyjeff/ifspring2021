@@ -1,0 +1,133 @@
+body {
+  font-family: "Archivo Narrow", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 29px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.italics {
+  font-style: italic;
+}
+
+#heading {
+  margin: auto;
+  color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-image: url("pandas.png");
+  margin-bottom: 0;
+}
+
+#heading h3 {
+  margin-top: 4px;
+}
+
+#section-1 {
+  background-color: #b8b5ff;
+}
+
+#section-2 {
+  background-color: #7868e6;
+  color: white;
+  padding-top: 64px;
+}
+
+#section-3 {
+  background-color: #c15050;
+  color: white;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 66px;
+}
+
+#section-4 {
+  background-color: color(srgb 0.155 0.001 0.001);
+  color: white;
+}
+
+.section {
+  margin: auto;
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+.section-content {
+  width: 75%;
+  margin: auto;
+}
+
+.section-content-narrow {
+  width: 60%;
+  margin: auto;
+}
+
+.section-content h2 {
+  text-align: center;
+}
+
+#float-image {
+  width: 40%;
+  float: right;
+  padding-left: 24px;
+  padding-bottom: 24px;
+}
+
+#grid-image {
+  width: 50%;
+  height: 50%;
+  margin-right: 8px;
+}
+
+.image-grid li {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.grid-flex {
+  display: flex;
+}
+
+.image-grid li p {
+  font-size: 16px;
+}
+
+.image-grid li h4 {
+  font-size: 20px;
+}
+
+#section-3 p {
+  margin: 0;
+}
+
+#section-4 p {
+  margin-top: 5px;
+}
