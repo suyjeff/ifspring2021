@@ -1,0 +1,65 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #content-div {
+    width: 960px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  #content-div {
+    width: 700px;
+  }
+}
+
+@media (min-width: 640px) {
+  #content-div {
+  }
+
+  #info-section {
+    display: flex;
+  }
+
+  #ingredients {
+    width: 30%;
+    /* background-color: blue; */
+  }
+
+  #preparation {
+    width: 70%;
+    padding-left: 24px;
+    /* background-color: red; */
+  }
+}
+
+#content-div {
+  margin: auto;
+}
+
+h1 {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.recipe-img {
+  width: 100%;
+}
+
+#ingredients-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#ingredients-list li {
+  margin-top: 12px;
+}
+
+#preparation-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#parparation-list li {
+  margin-top: 12px;
+}
